@@ -1,0 +1,8 @@
+{
+    "domain": "friedrich_ir",
+    "name": "Friedrich IR",
+    "documentation": "http://www.example.com",
+    "dependencies": [],
+    "codeowners": ["@wrigby"],
+    "requirements": []
+}
