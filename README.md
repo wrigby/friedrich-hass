@@ -13,6 +13,13 @@ air conditioner. Because of this, it's actually quite easy for us to control
 the AC some other way - we don't need to ask the AC what it's state is, because
 our commands will set the state to exactly what we want it to.
 
+## What works (and doesn't work)
+Right now this supports setting the AC mode, temperature, and fan speed from
+HomeAssistant. Turning the AC on and off isn't actually supported yet (I just
+set the AC to Money Saver at 80 degrees when I leave my apartment).
+
+Pull requests are are welcome!
+
 ## Setup / Installation
 You'll need:
 * A Teensy microcontroller (I used a Teensy LC)
