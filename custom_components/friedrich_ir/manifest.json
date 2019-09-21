@@ -1,7 +1,7 @@
 {
     "domain": "friedrich_ir",
     "name": "Friedrich IR",
-    "documentation": "http://www.example.com",
+    "documentation": "https://github.com/wrigby/friedrich-hass",
     "dependencies": [],
     "codeowners": ["@wrigby"],
     "requirements": []
