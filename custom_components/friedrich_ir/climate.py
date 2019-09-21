@@ -25,8 +25,8 @@ from homeassistant.const import (
     TEMP_FAHRENHEIT,
 )
 
-MIN_TEMP = 59
-MAX_TEMP = 91
+MIN_TEMP = 60
+MAX_TEMP = 86
 
 CONF_DEVICE = "device"
 
