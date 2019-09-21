@@ -18,7 +18,7 @@ You'll need:
 * A Teensy microcontroller (I used a Teensy LC)
 * An Infrared LED and appropritate current limiting resistor
 * A machine running HomeAssistant (mine is running in Docker on a Raspberry Pi)
-* A USB cable
+* A USB A to Micro B cable
 
 ### Hardware
 Solder the LED and resistor to the appropriate transmit pin on the Teensy. The
@@ -31,12 +31,15 @@ it works by sending a remote command with the serial console.
 
 ### HomeAssistant
 Copy the `friedrich_ir` directory into the `custom_components` directory in
-your HomeAssistant config directory (you may have to create `custom components`).
+your HomeAssistant config directory.
 
 Plug the Teensy into the computer running HomeAssistant, and find out which TTY
-device it comes up as (mine is `ttyACM0` on my Raspbian system).
+device it comes up as (mine is `ttyACM0` on my Raspbian system). If you're
+running HomeAssistant in Docker, you'll need to pass this device into the
+container with the `--device /dev/ttyACM0` option to `docker run`.
 
-Add these lines to your HomeAssisant `configuration.yaml`:
+Add these lines to your HomeAssisant `configuration.yaml`, setting `device` to
+the correct TTY.
 
 ```yaml
 climate:
