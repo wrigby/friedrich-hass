@@ -57,7 +57,13 @@ climate:
 Restart the HomeAssistant server, and you should now have climate controls!
 
 ## Thanks
-This was really easy for me to build, because Bryce Kahle did all the hard work
-of reverse engineering the IR protocol that Friedrich uses:
+This was really easy for me to build, because Bryce Kahle [did all the hard work
+of reverse engineering the IR protocol that Friedrich uses][1]
 
-https://brycekahle.com/2014/11/15/infrared-air-conditioner-control-with-a-spark-core/
+
+Also a big shoutout to [Fat Cat Fab Lab][2] in NYC. If you live in New York
+and want to join an awesome community of makers, stop by and join us!
+
+[1]: https://brycekahle.com/2014/11/15/infrared-air-conditioner-control-with-a-spark-core/
+[2]: https://www.fatcatfablab.org/
+
